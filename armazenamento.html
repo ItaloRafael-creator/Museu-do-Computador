@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo - Museu da Computação</title>
+    <link rel="stylesheet" href="timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1><i class="fas fa-history"></i> Linha do Tempo dos Computadores</h1>
+        <!--<p>Principais marcos tecnológicos desde 1800 até hoje</p>-->
+    </header>
+
+    <!-- Linha do Tempo -->
+    <div class="timeline">
+        <!-- Exemplo de item (você pode adicionar quantos quiser) -->
+        <div class="timeline-item">
+            <div class="timeline-date">1800s</div>
+            <div class="timeline-content">
+                <h3>Cartão perfurado</h3>
+                <img src="img/punched_card.jpg" alt="imagem">
+                <p>No final do século XIX, Herman Hollerith criou um método de armazenamento de dados baseado em cartões perfurados. Esses cartões eram usados para registrar informações por meio de perfurações em padrões específicos e foram amplamente utilizados até meados do século XX.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+
+        <!-- Novo item (modelo para copiar/colar) -->
+        <div class="timeline-item">
+            <div class="timeline-date">ano</div>
+            <div class="timeline-content">
+                <h3>Fita Magnética</h3>
+                <img src="img/item-horizontal-with-thumbnail.jpg" alt="imagem">
+                <p>As fitas magnéticas foram desenvolvidas na Alemanha na década de 1930, originalmente inventadas por Fritz Pfleumer para armazenar áudio. No entanto, seu uso para armazenamento de dados só se popularizou nos anos 1950. Tornaram-se um meio eficiente para guardar grandes volumes de informações, sendo amplamente utilizadas em mainframes e para backups. Ainda hoje, as fitas magnéticas são empregadas em alguns setores para arquivamento de longo prazo devido à sua durabilidade e baixo custo.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">ano</div>
+            <div class="timeline-content">
+                <h3>Discos Rígidos (HDD)</h3>
+                <img src="img/IBM_0665-30_HDD_1.jpg" alt="imagem">
+                <p>O primeiro disco rígido foi desenvolvido pela IBM em 1956. Os HDDs utilizam discos magnéticos giratórios para armazenar e acessar dados. Com o passar do tempo, sua capacidade aumentou significativamente, tornando-se um dos principais meios de armazenamento para computadores pessoais e servidores.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">ano</div>
+            <div class="timeline-content">
+                <h3></h3>
+                <img src="img/floppy.jpg" alt="imagem">
+                <p>Introduzidos nos anos 1970, os disquetes foram um dos primeiros meios portáteis de armazenamento digital. Inicialmente tinham capacidade de 8 polegadas e, posteriormente, foram reduzidos para 5,25 e 3,5 polegadas. Foram amplamente utilizados até o início dos anos 2000, quando foram substituídos por mídias mais modernas.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">ano</div>
+            <div class="timeline-content">
+                <h3>CDs, DVDs e Blu-ray</h3>
+                <img src="img/optical.jpg" alt="imagem">
+                <p>Nos anos 1980, os CDs (Compact Discs) revolucionaram o armazenamento de dados e música digital. Posteriormente, os DVDs (Digital Versatile Discs) trouxeram maior capacidade, seguidos pelos discos Blu-ray, que permitem armazenar vídeos em alta definição.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">ano</div>
+            <div class="timeline-content">
+                <h3>Pendrives e Cartões de Memória</h3>
+                <img src="img/SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg" alt="imagem">
+                <p>Com o avanço da tecnologia de armazenamento em estado sólido, os pendrives e cartões de memória se tornaram populares devido à sua portabilidade, velocidade e capacidade crescente.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">ano</div>
+            <div class="timeline-content">
+                <h3>SSDs (Solid State Drives)</h3>
+                <img src="img/2023_Dysk_SSD_Patriot_P210_2TB.jpg" alt="imagem">
+                <p>Os SSDs surgiram como uma alternativa aos HDDs, oferecendo maior velocidade, resistência e eficiência energética. Eles não possuem partes móveis, o que reduz o risco de falhas mecânicas e melhora o desempenho dos dispositivos que os utilizam.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">ano</div>
+            <div class="timeline-content">
+                <h3>Armazenamento em Nuvem  </h3>
+                <img src="img/timeline_memorystorage_2009.cloud.nas.jpg" alt="imagem">
+                <p>Atualmente, o armazenamento em nuvem permite salvar dados remotamente em servidores acessíveis via internet. Esse método oferece maior flexibilidade, segurança e escalabilidade, sendo amplamente utilizado por empresas e usuários domésticos.</p>
+                <!--<a href="#" class="btn">Saiba mais</a>-->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Formulário para adicionar novos itens (opcional)
+    <div class="add-event">
+        <h2>Adicionar Evento</h2>
+        <form id="eventForm">
+            <input type="text" placeholder="Ano (ex: 1991)" required>
+            <input type="text" placeholder="Título (ex: World Wide Web)" required>
+            <textarea placeholder="Descrição"></textarea>
+            <input type="text" placeholder="URL da Imagem (opcional)">
+            <button type="submit"><i class="fas fa-plus"></i> Adicionar</button>
+        </form>
+    </div> -->
+
+    <script src="timeline.js"></script>
+</body>
+</html>
