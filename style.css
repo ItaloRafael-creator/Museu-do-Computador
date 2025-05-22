@@ -137,7 +137,7 @@ footer {
     height: 8px;
 }
 .timeline-scroll-container::-webkit-scrollbar-thumb {
-    background: #4CAF50;
+    background: #ff6b6b;
     border-radius: 10px;
 }
 
